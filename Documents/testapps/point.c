@@ -6,13 +6,13 @@
 int main(void) {
 
 	int* y;
-//	y = malloc(sizeof(int));
+	y = malloc(sizeof(int));
 	*y = 13;
 
 
 	printf("%d", *y);
 
-//	free(y); 
+	free(y); 
 	return 0;
 
 }
