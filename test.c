@@ -1,10 +1,21 @@
 
 
 #include<stdio.h>
+#include<stdlib.h>
+
+int main(void) {
+
+	int* y;
+//	y = malloc(sizeof(int));
+	*y = 13;
 
 
-int main(void){
+	printf("%d", *y);
 
-	printf("Hello World\n");
-		//return 42;
-	}
+//	free(y); 
+	return 0;
+
+}
+
+
+
