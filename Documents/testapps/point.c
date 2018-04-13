@@ -11,7 +11,6 @@ int main(void) {
 
 
 	printf("%d", *y);
-	printf("Why you no!?");
 	free(y); 
 	return 0;
 
