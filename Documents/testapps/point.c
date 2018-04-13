@@ -5,15 +5,15 @@
 
 int main(void) {
 
-	int* y;
-	y = malloc(sizeof(int));
-	*y = 13;
+	int* x;
+	x = malloc(sizeof(int));
+	*x = 13;
 
 
-	printf("%d", *y);
+	printf("%d", *x);
 	printf("This whole thing is a bit confusing \n");
 	
-	free(y); 
+	free(x); 
 	return 0;
 
 }
