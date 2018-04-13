@@ -11,6 +11,8 @@ int main(void) {
 
 
 	printf("%d", *y);
+	printf("This whole thing is a bit confusing \n");
+	
 	free(y); 
 	return 0;
 
