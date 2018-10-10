@@ -5,8 +5,9 @@
 
 
 int main(void) {
-
-	printf("Jan's commit...");
+	
+	int count = 0;
+	printf("Jan's commit...%d", count);
 	return 0;
 
 }
