@@ -4,7 +4,7 @@
 #include<stdlib.h>
 
 int main(void) {
-
+	printf("Hello World!");
 	int* y;
 //	y = malloc(sizeof(int));
 	*y = 13;
