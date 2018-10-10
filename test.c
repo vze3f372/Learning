@@ -6,6 +6,7 @@
 int main(void) {
 	printf("Hello World!");
 	int* y;
+	printf("Please Kill Me!");
 	y = malloc(sizeof(int));
 	*y = 13;
 
